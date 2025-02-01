@@ -1,6 +1,6 @@
+from utils import find_max
+
 numbers = [5, 2, 9, 2, 2]
-max = numbers[0]
-for number in numbers:
-    if number > max:
-        max = number
-print(max)
+maximum = find_max(numbers)
+
+print(maximum)
